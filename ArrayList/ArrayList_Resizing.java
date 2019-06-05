@@ -1,3 +1,4 @@
+package ArrayList;
 import java.util.*;
 
 // Utilize the salary and employee as an example

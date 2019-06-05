@@ -1,3 +1,5 @@
+package Hash_Table;
+
 public class Hashing {
     static int INITIAL_SIZE = 30;
     static HashItem[] items = new HashItem[INITIAL_SIZE];
