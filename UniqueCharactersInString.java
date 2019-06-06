@@ -2,6 +2,7 @@ import java.util.Arrays;
 
 // To check if String has repeating character!
 public class UniqueCharactersInString {
+	// We can also set the length as the length of input string to decrease space
 	static int[] checking_record = new int[256];
 	
 	public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class UniqueCharactersInString {
     	char[] charArray = new char[sb.length()];
     	sb.getChars(0, sb.length(), charArray, 0);
     	
-    	// Detect the ASCII code to check if character repears
+    	// Detect the ASCII code to check if character repeats
     	for(char each_character:charArray) {
     		int asciicode = (int)each_character;
     		if(checking_record[asciicode] >= 1) {

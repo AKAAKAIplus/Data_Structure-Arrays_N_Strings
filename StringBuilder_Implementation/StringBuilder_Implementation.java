@@ -1,4 +1,4 @@
-package StringBuilder;
+package StringBuilder_Implementation;
 
 import java.lang.StringBuilder;
 
@@ -13,7 +13,12 @@ public class StringBuilder_Implementation {
     		sb.append(word);
     	}
     	System.out.println(sb.toString());
-    	System.out.println("------");
+    	
+    	System.out.println("---insert Tea---");
+    	sb.insert(6, "Tea");
+    	System.out.println(sb.toString());
+    	
+    	System.out.println("---check all string---");
     	System.out.println(sb.indexOf("Pepperoni"));
     	System.out.println(sb.reverse().toString());
 	}
