@@ -8,3 +8,7 @@ All of these includes three main parts:
 
 Also,
 I record some pratices which are related with this field.
+
+·Permutation_And_Palindrome_Checking.java -> To check the permutation of String
+
+·UniqueCharactersInString.java -> To check if String has repeating character!
