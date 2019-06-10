@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.Arrays;
 
-//To check the permutation of String
+// To check the permutation of String
 public class Permutation_And_Palindrome_Checking {
 	static String text1 = new String("Level");
 	static String text2 = new String("Level");
@@ -64,7 +64,7 @@ public class Permutation_And_Palindrome_Checking {
 		}
 		
 		if( String.copyValueOf(c_str1).equals(String.copyValueOf(c_str2)) ) {
-			System.out.println("\nString are oalindrome!");
+			System.out.println("\nString are palindrome!");
 		}else {
 			System.out.println("\nString are not palindrome!");
 		}
